@@ -4,7 +4,7 @@
  *
  * Return: no return
  */
-void print _numbers(void)
+void print_numbers(void)
 {
 	int pr;
 
