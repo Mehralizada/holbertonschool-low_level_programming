@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * print_square - print square with #
  *
  * @size: no of # square
  */
+
 void print_square(int size)
 {
 	int i, j;
