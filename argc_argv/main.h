@@ -1,15 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
-#include <stdio.h>
-#include "main.h"
+#include <unistd.h>
 
+/* Function prototypes */
 int _putchar(char c);
+void _puts(char *str);
+void _putnbr(int n);
+int main(int argc, char *argv[]);
 
+#endif /* MAIN_H */
 
-=======
-int _putchar(char c);
-
->>>>>>> c7c883cb1af3c2fd715f88066e02b0b91ca71cbf
-#endif
