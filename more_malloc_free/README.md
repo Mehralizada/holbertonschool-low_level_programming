@@ -17,3 +17,11 @@ Write a function that allocates memory for an array, using malloc.
 3. array_range
 
 Write a function that creates an array of integers.
+
+3. array_range
+
+Write a function that creates an array of integers.
+
+4. _realloc
+
+Write a function that reallocates a memory block using malloc and free

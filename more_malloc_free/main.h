@@ -15,5 +15,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index);
 int check_for_digits(char **sv);
 void init (char *str, int l);
 int _putchar(char c);
-
+int *array_range(int min, int max);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 #endif
