@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 
-int strlen(char *str);
+int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
@@ -66,7 +66,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (doogo->owner == NULL)
+	if (doggo->owner == NULL)
 	{
 		free(doggo->name);
 		free(doggo);
