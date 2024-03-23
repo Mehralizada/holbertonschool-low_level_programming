@@ -41,10 +41,10 @@ int op_mul(int a, int b)
 }
 /**
  * op_div - Returns the division of two numbers.
- * @a: The first number.
- * @b: The second number.
+ * @a: The first number (dividend).
+ * @b: The second number (divisor).
  *
- * Return: The quotient of a and b.
+ * Return: The quotient of a divided by b.
  */
 int op_div(int a, int b)
 {
@@ -52,8 +52,8 @@ int op_div(int a, int b)
 }
 /**
  * op_mod - Returns the remainder of the division of two numbers.
- * @a: The first number.
- * @b: The second number.
+ * @a: The first number (dividend).
+ * @b: The second number (divisor).
  *
  * Return: The remainder of the division of a by b.
  */
